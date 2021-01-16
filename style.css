@@ -34,6 +34,10 @@ a {
   z-index: 100;
 }
 
+.navbar .logo {
+  padding-left: 10px;
+}
+
 .navbar ul {
   display: flex;
 }
@@ -41,7 +45,6 @@ a {
 .navbar a {
   color:white;
   padding: 10px;
-  margin: 0 5px;
 }
 
 .navbar a:hover {
@@ -51,7 +54,7 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
   height: auto;
 }
 
