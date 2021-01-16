@@ -53,7 +53,7 @@ a {
 }
 
 .container {
-  max-width: 95vw;
+  max-width: 90vw;
   margin: 0 auto;
   padding: 0 10px;
   height: auto;
@@ -332,6 +332,17 @@ a {
 }
 
 @media (max-width: 690px){
+
+  .container {
+    max-width: 98vw;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: auto;
+  }
+
+
+
+
   .alternativeBox {
     flex: 0.5;
     display: flex;
@@ -359,5 +370,8 @@ a {
     flex-direction: column;
     height: fit-content;
   }
+
+
+
 
 }
