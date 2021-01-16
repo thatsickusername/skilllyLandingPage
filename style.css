@@ -18,7 +18,7 @@ a {
   position: relative;
   height: 100vh;
   z-index: -100;
-	background-image: url(/images/blob.png);
+  background-image: url(/images/blob2.png);
 	background-position: center;
 	background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ a {
 
 .navbar ul {
   display: flex;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 .navbar a {
@@ -53,7 +53,7 @@ a {
 }
 
 .container {
-  max-width: 90vw;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 10px;
   height: auto;
@@ -78,7 +78,7 @@ a {
 	position: absolute;
 	bottom: 55%;
   color: white;
-  left: 10%;
+  padding-left: 10px;
 }
 
 .threeBoxLayout {
@@ -318,6 +318,14 @@ a {
 
 
 @media (max-width: 1040px){
+
+  .container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: auto;
+  }
+
   .threeBoxLayout {
     height: auto;
   }
