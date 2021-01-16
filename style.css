@@ -6,8 +6,7 @@
 }
 
 body{
-	background: black;
-	color: #545454;
+  color: #545454;
 }
 
 a {
@@ -15,12 +14,24 @@ a {
   color: #333;
 }
 
+.totalHero {
+  position: relative;
+  height: 100vh;
+  z-index: -100;
+	background-image: url(/images/blob.png);
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 /* Navbar */
 .navbar {
-  background-color: black;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  color:white;
   height: 100px;
+  z-index: 100;
 }
 
 .navbar ul {
@@ -28,7 +39,7 @@ a {
 }
 
 .navbar a {
-  color: #fff;
+  color:white;
   padding: 10px;
   margin: 0 5px;
 }
@@ -53,33 +64,32 @@ a {
 
 
 
-
 .wrapper {
 	height: 100vh;
 }
 
 
-.wrapper .hero-text {
+
+.totalHero .hero-text {
 	position: absolute;
 	bottom: 55%;
 	color: white;
-	left: 10%;
 }
 
 .threeBoxLayout {
-  height: auto;
+  height: 100vh;
   
 }
 
 .threeBoxLayout .mainHeading {
     max-width: 700px;
     width: 100%;
-    padding: 100px 50px 50px;
+    padding: 50px 50px ;
     margin: 0 auto 0px;
     text-align: center;
     font-size: 58px;
     text-transform: uppercase;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .threeBoxLayout .boxes {
@@ -95,7 +105,7 @@ a {
   .threeBoxLayout .boxes .individualBoxes {
     width: 325px;
     margin: 10px;
-    background: #fff;
+    background: rgb(235, 235, 235);
     border-radius: 6px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
     padding: 25px;
@@ -150,7 +160,7 @@ a {
 
   .containerForALTERNATIVE {
     
-    height: 90vh;
+    height: 100vh;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -303,12 +313,36 @@ a {
 
 
 @media (max-width: 1040px){
+  .threeBoxLayout {
+    height: auto;
     
-
+  }
+  
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 690px){
+  .alternativeBox {
+    flex: 0.5;
+    display: flex;
+    margin: 10px 20px;
+    flex-direction: column;
+    
+}
+
+.alternativeBox:nth-child(even){
+   flex-direction: column;
+}
+
+.alternativeImage {
+  flex: 2;   
+  border: 3px solid rgb(255, 255, 255); 
+}
+
+.alternativeText {
+  flex: 1; 
+  border: 3px solid rgb(255, 255, 255);
+}
 
   .wrapper .boxes {
     display: flex;
