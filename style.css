@@ -51,7 +51,7 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 20px;
   height: auto;
 }
 
@@ -73,7 +73,8 @@ a {
 .totalHero .hero-text {
 	position: absolute;
 	bottom: 55%;
-	color: white;
+  color: white;
+  left: 10%;
 }
 
 .threeBoxLayout {
