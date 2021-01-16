@@ -40,6 +40,7 @@ a {
 
 .navbar ul {
   display: flex;
+  padding-right: 50px;
 }
 
 .navbar a {
@@ -52,7 +53,7 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 90vw;
   margin: 0 auto;
   padding: 0 10px;
   height: auto;
@@ -319,8 +320,13 @@ a {
 @media (max-width: 1040px){
   .threeBoxLayout {
     height: auto;
-    
   }
+
+  .navbar ul {
+    padding-right: 0;
+  }
+
+
   
 
 }
