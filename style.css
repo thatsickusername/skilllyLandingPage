@@ -129,7 +129,7 @@ a {
 
 .threeBoxLayout {
   height: 100vh;
-  background-image: url(/images/halfBlue2.png);
+  background-image: url(/images/halfBlueCurve.png);
 	background-position: center;
 	background-repeat: no-repeat;
   background-size: cover; 
@@ -457,6 +457,13 @@ a {
   }
 
 
+  .threeBoxLayout {
+    background-image: url(/images/halfBlueCurve2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
   
 
   
@@ -476,28 +483,16 @@ a {
     background-color: chartreuse;
   }
 
+  .threeBoxLayout {
+    background-image: url(/images/halfBlueCurve.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
 
-  .alternativeBox {
-    flex: 0.5;
-    display: flex;
-    margin: 10px 20px;
-    flex-direction: column;
-    
-}
 
-.alternativeBox:nth-child(even){
-   flex-direction: column;
-}
 
-.alternativeImage {
-  flex: 2;   
-  border: 3px solid rgb(255, 255, 255); 
-}
 
-.alternativeText {
-  flex: 1; 
-  border: 3px solid rgb(255, 255, 255);
-}
 
   .wrapper .boxes {
     display: flex;
