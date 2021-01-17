@@ -9,6 +9,27 @@ body{
   color: #545454;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(173, 173, 173); 
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(119, 119, 119); 
+}
+
 a {
   text-decoration: none;
   color: #333;
