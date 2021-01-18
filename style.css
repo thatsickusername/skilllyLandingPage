@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body{
   color: #545454;
   overflow-x: hidden;
@@ -457,6 +461,9 @@ a {
 
 
 @media (max-width: 1040px){
+  html {
+    overflow-x: hidden;
+  }
 
   body{
     color: #545454;
@@ -493,6 +500,10 @@ a {
 }
 
 @media (max-width: 740px){
+
+  html {
+    overflow-x: hidden;
+  }
 
   body{
     color: #545454;
